@@ -2,157 +2,150 @@
 
 This contains a collection of projects that I aim to develop.
 
+---
+
 ## Simple Projects
 
-- [ ] **Number Guessing Game** - Computer picks a random number; user guesses with hints
-- [ ] **Rock, Paper, Scissors** - Simple game against computer opponent
-- [ ] **Calculator** - CLI-based calculator with basic arithmetic operations
-- [ ] **Unit Converter** - Convert between temperature, distance, and weight units
-- [ ] **Number Utilities Library** - Collection of utility functions (isPrime, gcd, factorial)
-- [ ] **Password Generator** - Generate secure passwords with customization options
-- [ ] **Digital Clock & Countdown Timer** - Real-time clock and customizable timer
-- [ ] **Quiz Game** - Multiple-choice quiz system with scoring
-- [ ] **Text Analyzer** - Analyze paragraphs for word count, frequency, and statistics
+- **Calculator** - CLI calculator with expression parsing
+- **Unit Converter** - Convert between different units with precision
+- **File Encryption Tool** - XOR and Caesar cipher implementation
+- **Hex Dump Utility** - Display binary files in hexadecimal format
+- **Bit Manipulation Toolkit** - Set, clear, toggle, and test bit operations
+- **CRC Calculator** - Compute CRC checksums for data validation
+- **Binary File Comparator** - Compare two binary files byte-by-byte
+- **Endianness Converter** - Convert between big-endian and little-endian
 
 ---
 
-## Simple Games & CLI Applications
+## Console Games
 
-- [ ] **Tic-Tac-Toe** - Two-player grid game with win detection
-- [ ] **Hangman** - Word guessing game with visual feedback
-- [ ] **Word Scramble Game** - Unscramble randomly shuffled words
-- [ ] **To-Do List Manager** - CRUD operations for task management with file persistence
-- [ ] **Address Book** - Store and search contacts with add/delete functionality
-- [ ] **Expense Tracker** - Track daily expenses and generate reports
-- [ ] **Student Record Manager** - Manage student information, marks, and grades
-- [ ] **Simple Banking System** - Account creation, deposits, withdrawals, and balance tracking
-- [ ] **Simple File Encryption Tool** - Text encryption using Caesar cipher or XOR
+- **Tic-Tac-Toe** - Two-player game with minimax AI
+- **Snake Game** - Classic snake with collision detection
+- **2048 Game** - Sliding tile puzzle with efficient board representation
+- **Minesweeper** - Grid-based game with recursive reveal
+- **Sudoku Solver** - Backtracking algorithm implementation
+- **Tetris** - Block-falling game with rotation and collision
 
 ---
 
-## Data Processing & File Management
+## Data Structures & Algorithms
 
-- [ ] **URL Shortener** - Convert long URLs into short, manageable links
-- [ ] **CSV Data Analyzer** - Import and analyze CSV files with statistics and filtering
-- [ ] **Log File Parser** - Manage and analyze log files with filtering and search
-- [ ] **JSON Data Processor** - CLI application for managing JSON data with CRUD operations
-- [ ] **File Management System** - Virtual file system with CRUD operations
-- [ ] **Modular File Search CLI Tool** - Simplified grep/find with plugin support
-
----
-
-## Intermediate Games
-
-- [ ] **Connect Four** - Turn-based strategy game with win condition checking
-- [ ] **2048 Game** - Sliding tile puzzle game with merge logic
-- [ ] **Sudoku Game/Solver** - Interactive Sudoku with backtracking solver
-- [ ] **Snake Game** - Classic snake game with collision detection
-- [ ] **Minesweeper** - Grid-based mine detection game with recursive reveal
-- [ ] **Memory Card Matching Game** - Flip and match card pairs
-- [ ] **Battleship** - Grid-based naval combat game with AI opponent
-- [ ] **Snake and Ladder** - Board game with dice rolls and position tracking
+- **Dynamic Array (Vector)** - Resizable array with automatic growth
+- **Linked List Library** - Singly and doubly linked lists
+- **Stack & Queue** - LIFO and FIFO data structure implementations
+- **Binary Search Tree** - BST with insert, delete, and search
+- **AVL Tree** - Self-balancing binary search tree
+- **Hash Table** - Custom hash map with collision handling
+- **Priority Queue (Heap)** - Min-heap and max-heap implementation
+- **Graph Algorithms** - BFS, DFS, Dijkstra's shortest path
+- **Sorting Algorithm Suite** - Quicksort, mergesort, heapsort with benchmarks
+- **String Matching** - KMP and Boyer-Moore algorithms
+- **LRU Cache** - Least recently used cache with O(1) operations
+- **Trie** - Prefix tree for autocomplete and pattern matching
 
 ---
 
-## Management Systems
+## Object-Oriented Design
 
-- [ ] **Library Management System** - Book cataloging, user tracking, and checkout system
-- [ ] **Inventory Management System** - Product tracking with stock management
-- [ ] **School Management System** - Student enrollment, grades, and class management
-- [ ] **Bus Reservation System** - Seat booking, passenger management, and route tracking
-- [ ] **Employee Attendance/Review System** - Track employee records and performance
-- [ ] **Bank Management System** - Comprehensive banking with accounts, transactions, and reports
-- [ ] **Supermarket Billing Software** - Point-of-sale system with inventory integration
-- [ ] **Online Book Store** - E-commerce system with cart, orders, and inventory
-
----
-
-## Algorithms & Data Structures
-
-- [ ] **Maze Solver** - Find shortest path using BFS/DFS algorithms
-- [ ] **Dijkstra's Shortest Path Visualizer** - Graph shortest path with priority queue
-- [ ] **AVL Tree Implementation** - Self-balancing binary search tree
-- [ ] **B-Tree Implementation** - Multi-way search tree for database indexing
-- [ ] **LRU Cache** - Efficient cache using hash map and doubly linked list
-- [ ] **File Compression Tool** - Huffman coding-based compression/decompression
-- [ ] **Expression Parser** - Mathematical expression evaluator with variables
-- [ ] **Mini JSON Parser** - Parse JSON strings into C++ objects
-- [ ] **DSA Library** - Comprehensive data structures and algorithms library
+- **Design Pattern Library** - Factory, Singleton, Observer, Strategy implementations
+- **Shape Hierarchy** - Polymorphic shape classes with area and perimeter calculations
+- **Vehicle Management System** - Class hierarchy with inheritance and virtual functions
+- **Banking System** - Account types using polymorphism and encapsulation
+- **Library Management System** - Book cataloging with member management
+- **Student Management System** - Grades and attendance with class composition
+- **Game Engine Framework** - Entity-component system with game loop
+- **Logger Framework** - Multi-level logging with different output targets
+- **Plugin System** - Dynamic loading with abstract interfaces
+- **Command Pattern Shell** - Extensible command interpreter with undo/redo
 
 ---
 
-## System Programming
+## Memory & Resource Management
 
-- [ ] **Memory Allocator (malloc/free)** - Custom memory allocation implementation
-- [ ] **Command-line Shell Emulator** - Basic shell with command parsing and execution
-- [ ] **Thread Pool Implementation** - Fixed worker thread pool for task execution
-- [ ] **CPU Task Scheduler** - FCFS, Round Robin, and Priority scheduling algorithms
-- [ ] **Custom Smart Pointers** - Demonstrate memory management and C++ internals
-- [ ] **Memory Pool** - Efficient memory allocation system
-
----
-
-## Networking & Web Applications
-
-- [ ] **Chat Server** - Multi-client TCP-based messaging system
-- [ ] **HTTP Web Server** - Handle HTTP GET requests and serve static files
-- [ ] **Weather App** - HTTP server with frontend integration for weather data
-- [ ] **Distributed Key-Value Store** - Mini Redis-like system with GET/SET over TCP
+- **Custom Memory Allocator** - Implement malloc/free with different strategies
+- **Memory Pool Allocator** - Fixed-size block allocation for embedded systems
+- **Stack-based Allocator** - Fast linear allocator for temporary data
+- **Garbage Collector** - Mark-and-sweep collection algorithm
+- **Smart Pointer Library** - unique_ptr, shared_ptr, weak_ptr from scratch
+- **Reference Counting System** - Manual reference counting with cycle detection
+- **Object Pool** - Reusable object management for performance
+- **Memory Leak Detector** - Track allocations and detect leaks
+- **RAII Wrapper Library** - Resource management using RAII idiom
 
 ---
 
-## Advanced Games
+## File Systems & Parsers
 
-- [ ] **Checkers** - Complete implementation with game rules and UI
-- [ ] **Tetris** - Block-falling game with rotation and collision detection
-- [ ] **Chess (Simplified)** - Two-player chess with piece movement rules
-- [ ] **Pac-Man (ASCII)** - Grid-based game with ghost AI and pathfinding
-- [ ] **Text Editor** - Basic text editing with file operations
-- [ ] **Mini Game Engine Core (2D)** - Rendering, input, and game loop architecture
-
----
-
-## Complex System Design
-
-- [ ] **Social Network Model** - User profiles, connections, and messaging
-- [ ] **Online Voting System** - Secure voting with authentication and result tallying
-- [ ] **Mini Database Engine (TinyDB)** - SQL-like queries with indexing
-- [ ] **Virtual File System** - In-memory folder structure with path resolution
-- [ ] **Diff Merge Tool** - File comparison and merge utility
-- [ ] **C++ Static Code Analyzer** - Parse source files for code quality metrics
-- [ ] **Component-Based Entity System (ECS)** - Game engine architecture with templates
+- **CSV Parser** - Read and write CSV files with proper escaping
+- **JSON Parser** - Parse JSON into C++ objects without libraries
+- **Configuration File Parser** - INI or custom config format parser
+- **Binary File Reader/Writer** - Handle binary protocols and file formats
+- **Virtual File System** - In-memory file system with directory tree
+- **Compression Tool** - Huffman coding for file compression
+- **Expression Parser** - Recursive descent parser for arithmetic expressions
+- **Markdown Parser** - Convert markdown to HTML
 
 ---
 
-## Embedded & Low-Level Systems
+## Embedded & Hardware Simulation
 
-- [ ] **Simple Sensor Data Logger** - Collect and store sensor data
-- [ ] **Sensor Monitoring System** - Multi-sensor tracking with alerting
-- [ ] **Weather Data Logger** - Temperature data collection and statistical analysis
-- [ ] **Multi-tasking Weather Station** - Concurrent sensor data processing
-- [ ] **Smart Home Controller** - IoT device simulation with event-driven logic
-- [ ] **Custom Bootloader** - Load binary programs into memory
-- [ ] **Simple RTOS** - Real-time operating system implementation
-- [ ] **Protocol Analyzer** - Network packet inspection and analysis
-- [ ] **8-bit CPU Emulator** - Simulate registers, memory, and instruction execution
-- [ ] **Embedded System Simulator** - Simulate I/O peripherals with CLI
-- [ ] **Bit-banged I2C/SPI** - Software implementation of hardware protocols
-- [ ] **Arduino Bootloader** - Custom bootloader for Arduino platform
-- [ ] **Linux Character Driver** - Kernel module for device interaction
+- **UART Simulator** - Serial communication protocol with buffers
+- **Register Abstraction Layer** - Memory-mapped register access library
+- **Circular Buffer** - Ring buffer for sensor data and UART
+- **State Machine Framework** - Generic FSM for embedded systems
+- **Event Queue System** - Priority-based event handling
+- **Timer Manager** - Software timers with callbacks
+- **Device Driver Simulator** - Mock GPIO, SPI, I2C interfaces
+- **Bootloader Simulator** - Load and execute binary images in memory
+- **Sensor Data Logger** - Collect and process sensor readings with timestamps
+- **Real-Time Clock** - Software RTC with alarm functionality
 
 ---
 
-## Expert Portfolio Projects
+## Concurrency & Multithreading
 
-- [ ] **Network Stack Implementation** - Custom TCP/IP stack
-- [ ] **File System Implementation** - Low-level file system with inodes and blocks
-- [ ] **Mini Hypervisor** - Basic virtualization layer
+- **Thread Pool** - Worker threads with task queue and synchronization
+- **Producer-Consumer Queue** - Thread-safe queue with condition variables
+- **Read-Write Lock** - Multiple readers, single writer synchronization
+- **Thread-Safe Singleton** - Lazy initialization with double-checked locking
+- **Async Task Executor** - Future/promise pattern implementation
+- **Lock-Free Queue** - Concurrent queue using atomic operations
+- **Parallel Merge Sort** - Multi-threaded sorting algorithm
+- **Thread Scheduler** - Cooperative task scheduling system
 
 ---
 
-## System Design Challenges
+## System-Level Programming
 
-- [ ] **Parking System Design** - Multi-level parking with slot management
-- [ ] **Elevator Controller** - Multi-elevator scheduling algorithm
-- [ ] **Temperature Monitoring System** - Distributed sensor network with data aggregation
-- [ ] **Housing System** - Property management and allocation system
+- **Command-line Shell** - Parse and execute commands with environment variables
+- **Process Scheduler Simulator** - FCFS, Round Robin, Priority scheduling
+- **Mutex & Semaphore** - Synchronization primitives from scratch
+- **Inter-Process Communication** - Message passing between processes
+- **Virtual Memory Manager** - Page table and TLB simulation
+- **File System Implementation** - Simple file system with inodes and blocks
+
+---
+
+## Low-Level & Binary Processing
+
+- **ELF File Parser** - Parse executable file format
+- **Disassembler** - Decode machine instructions to assembly
+- **8-bit CPU Emulator** - Simulate instruction set with registers and memory
+- **Assembly Interpreter** - Execute simple assembly language
+- **Linker Script Parser** - Parse and process linker scripts
+- **Firmware Update Tool** - Flash image verification and programming
+- **Custom Binary Protocol** - Design and implement packet-based protocol
+- **Interrupt Controller Simulator** - Priority-based interrupt handling
+- **DMA Controller Model** - Simulate direct memory access operations
+- **Memory Mapped I/O** - Simulate hardware register access patterns
+
+---
+
+## Advanced Algorithms & Problem Solving
+
+- **Pathfinding Visualizer** - A* algorithm with heuristics
+- **Dynamic Programming Suite** - Knapsack, LCS, edit distance problems
+- **Backtracking Problems** - N-Queens, Sudoku, graph coloring
+- **Greedy Algorithms** - Activity selection, Huffman coding
+- **Divide and Conquer** - Matrix multiplication, closest pair of points
+- **Bit Manipulation Problems** - Count set bits, power of two, XOR tricks
